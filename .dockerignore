@@ -1,8 +1,14 @@
 .venv
 .git
 .gitignore
-__pycache__
-*.pyc
+**/__pycache__
+**/*.pyc
 Dockerfile
 .dockerignore
 .env
+.env.example
+.vscode
+.github
+compose.yaml
+example.png
+*.md

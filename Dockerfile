@@ -1,5 +1,7 @@
 FROM python:3.14-slim
 
+LABEL org.opencontainers.image.source=https://github.com/Minister944/simple-dashboard
+
 COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 ENV UV_COMPILE_BYTECODE=1 \
