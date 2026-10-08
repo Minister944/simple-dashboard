@@ -1,0 +1,10 @@
+[project]
+name = "simple-dashboard"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "fastapi[standard]>=0.142.2",
+    "httpx2>=2.13.1",
+]
